@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<style>
+   body{
+    background-color: #a2defa;
+    font-family: 'Courier New';
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+   }
+   form {
+  background-color: #f5914f;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  margin: auto;
+  max-width: 500px;
+  padding: 20px;
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="password"]
+{
+    width: 500px;
+    height: 20px;
+}
+
+
+ 
+button{
+    align-content: center;
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    font-family: 'Courier New';
+    background-color: #fafafa;
+    border-color:transparent;
+
+}
+button:hover{
+    background-color: #a2defa;
+}
+a{
+    align-content: center;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #fdfdfd;
+}
+
+
+</style>
+<html>
+    <head>
+        <title>Login Page</title>
+    </head>
+
+    <body>
+        <h1 style="text-align: center;">Login</h1>
+
+    <form action="Main.html" method="post">
+        
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required /><br />
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required /><br />
+
+      
+      <button type="submit">Login</button>
+     
+      <a href="Register.html">Sign Up</a>
+     </a>
+    </form>
+  </body>
+    
+
+</html>
